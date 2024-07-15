@@ -7,6 +7,8 @@ import { EditAccountsSheet } from '@/features/accounts/components/edit-accounts-
 import { NewAccountsSheet } from '@/features/accounts/components/new-accounts-sheet'
 import { EditCategoriesSheet } from '@/features/categories/components/edit-category-sheet'
 import { NewCategorySheet } from '@/features/categories/components/new-category-sheet'
+import { NewTransactionSheet } from '@/features/transactions/components/new-transaction-sheet'
+import { EditTransactionSheet } from '@/features/transactions/components/edit-transaction-sheet'
 
 type Props = {}
 
@@ -21,6 +23,8 @@ export const SheetProvider = (props: Props) => {
       <EditAccountsSheet />
       <NewCategorySheet />
       <EditCategoriesSheet />
+      <NewTransactionSheet />
+      <EditTransactionSheet />
     </>
   )
 }
